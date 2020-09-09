@@ -1,15 +1,14 @@
 <template>
-  <div id="app">
-  <Home></Home>
+  <div id="home">
+    <h2>这是home页面</h2>
   </div>
 </template>
 
 <script>
-import Home from './components/home'
+
 export default {
   name: 'App',
   components: {
-    Home
   }
 }
 </script>
